@@ -21,11 +21,9 @@ class Product_Store(Product):
 
 
     def get_income(self):
-        return self.
         #сума проданих товарів
 
     def get_all_products(self):
-        return self.
         # всі товари в магазині
 
       def get_product_info(self, product_name):
@@ -41,5 +39,4 @@ if __name__ == '__main__':
     product2 = Product( 'Телевізор' 'Sumsung', 34.95)
     product3 = Product('Телефон', 'Sumsung', 14.95)
 
-    print('ID', 'Description', 'Quantity', 'price')
 
